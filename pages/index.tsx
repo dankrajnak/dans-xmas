@@ -17,16 +17,16 @@ const Home: NextPage = () => {
         <div style={{ marginBottom: 50 }}>(Sorry Tom and Cristal)</div>
         <div className={styles.grid}>
           <div className={styles.card}>
-            <Image src="/vincent.jpeg" width={500} height={500} />
+            <Image src="/vincent.jpeg" width={500} height={500} alt="" />
           </div>
           <div className={styles.card}>
-            <Image src="/light.jpg" width={500} height={500} />
+            <Image src="/light.jpg" width={500} height={500} alt="" />
           </div>
         </div>
         <div style={{ height: "300vh" }} />
         <div className={styles.grid}>
           <a className={styles.card} href="https://www.columbusvangogh.com/">
-            <Image src="/exhibit.jpeg" width={500} height={500} />
+            <Image src="/exhibit.jpeg" width={500} height={500} alt="" />
           </a>
         </div>
       </main>
