@@ -29,15 +29,16 @@ const Home: NextPage = () => {
         <div style={{ height: "200vh" }} />
         <div className={styles.grid}>
           <a href="https://www.columbusvangogh.com/">
-            <video
-              className="elementor-background-video-hosted elementor-html5-video lazyloaded"
-              autoPlay
-              muted
-              playsInline
-              loop
-              src="https://vangogh.b-cdn.net/VgIntro.mp4"
-              style={{ maxWidth: 600, marginBottom: "30vh" }}
-            />
+            <Image src="/exhibit.jpeg" width={500} height={500} alt="" />
+            {/* <h2 style={{ marginTop: 5 }}>Click me</h2> */}
+          </a>
+          <a href="https://www.columbusvangogh.com/">
+            <Image src="/exhibit4.jpg" width={500} height={500} alt="" />
+            {/* <h2 style={{ marginTop: 5 }}>Click me</h2> */}
+          </a>
+          <a href="https://www.columbusvangogh.com/">
+            <Image src="/exhibit3.jpeg" width={500} height={500} alt="" />
+            {/* <h2 style={{ marginTop: 5 }}>Click me</h2> */}
           </a>
         </div>
       </main>
