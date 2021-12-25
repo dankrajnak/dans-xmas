@@ -23,10 +23,21 @@ const Home: NextPage = () => {
             <Image src="/light.jpg" width={500} height={500} alt="" />
           </div>
         </div>
-        <div style={{ height: "300vh" }} />
+        <div style={{ marginTop: 30 }}>Scroll to find out more</div>
+        <div style={{ height: "200vh" }} />
+        <div style={{ marginTop: 30 }}>Keep going</div>
+        <div style={{ height: "200vh" }} />
         <div className={styles.grid}>
-          <a className={styles.card} href="https://www.columbusvangogh.com/">
-            <Image src="/exhibit.jpeg" width={500} height={500} alt="" />
+          <a href="https://www.columbusvangogh.com/">
+            <video
+              className="elementor-background-video-hosted elementor-html5-video lazyloaded"
+              autoPlay
+              muted
+              playsInline
+              loop
+              src="https://vangogh.b-cdn.net/VgIntro.mp4"
+              style={{ maxWidth: 600, marginBottom: "30vh" }}
+            />
           </a>
         </div>
       </main>
